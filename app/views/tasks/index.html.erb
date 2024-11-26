@@ -5,8 +5,6 @@
      <input type="checkbox" id="<%= task.id %>" <%= 'checked' if task.completed %> disabled>
         <label for="<%= task.id %>">
        <%= task.title %><br>
-       <%= task.details %><br>
-       <%= task.completed ? "Yes" : "No" %>
     </li>
   <% end %>
 </ul>
